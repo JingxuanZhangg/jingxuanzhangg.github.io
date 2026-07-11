@@ -199,8 +199,9 @@ span.highlight {
 
   .profile-photo img {
     width: 100% !important;
-    max-width: 220px !important;
+    max-width: 260px !important;
     margin: 0 auto !important;
+    transform: none !important;
   }
 
   .pub {
