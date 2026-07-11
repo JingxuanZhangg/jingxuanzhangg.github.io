@@ -140,3 +140,56 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+.pub {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 8px 16px 24px;
+}
+
+.pub-thumb {
+  flex: 0 0 200px;
+}
+
+.pub-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.pub-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-title {
+  margin: 0 0 8px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.pub-title a {
+  font-size: inherit;
+}
+
+.pub-authors,
+.pub-venue,
+.pub-description {
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .pub {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .pub-thumb {
+    flex-basis: auto;
+    width: 100%;
+    max-width: 260px;
+  }
+}
