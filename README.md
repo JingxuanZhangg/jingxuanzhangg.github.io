@@ -1,1 +1,3 @@
-This is the source code to Jon Barron's public academic website: https://jonbarron.info/. Feel free to clone this code for your own personal use.
+# Jingxuan Zhang's personal website
+
+Source for the personal website published at <https://jingxuanzhangg.github.io>.
